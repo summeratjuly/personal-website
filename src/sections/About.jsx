@@ -7,23 +7,10 @@ export default function About() {
       <div className="max-w-6xl mx-auto">
         <SectionHeading title="About Me" subtitle="Get to know me" />
 
-        <div className="grid md:grid-cols-2 gap-16 items-center">
+        <div className="max-w-2xl mx-auto">
           <motion.div
-            initial={{ opacity: 0, x: -50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-            className="relative"
-          >
-            <div className="w-full aspect-square rounded-2xl bg-gradient-to-br from-primary/20 to-accent/20 border border-white/10 flex items-center justify-center">
-              <span className="text-6xl text-text-muted">Your Photo</span>
-            </div>
-            <div className="absolute -bottom-4 -right-4 w-full h-full rounded-2xl border border-primary/30 -z-10" />
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, x: 50 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
@@ -53,6 +40,7 @@ export default function About() {
             </div>
           </motion.div>
         </div>
+
       </div>
     </section>
   )

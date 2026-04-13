@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" fill="none">
+  <!-- Background: simulated browser content -->
+  <rect width="800" height="400" fill="#0f0f1a"/>
+
+  <!-- Fake browser page content -->
+  <rect x="0" y="0" width="560" height="400" fill="#111127"/>
+
+  <!-- Nav bar -->
+  <rect x="0" y="0" width="560" height="40" fill="#1a1a2e" opacity="0.8"/>
+  <rect x="20" y="14" width="50" height="12" rx="2" fill="#6366f1" opacity="0.6"/>
+  <rect x="120" y="16" width="30" height="8" rx="2" fill="#444" opacity="0.5"/>
+  <rect x="165" y="16" width="35" height="8" rx="2" fill="#444" opacity="0.5"/>
+  <rect x="215" y="16" width="40" height="8" rx="2" fill="#444" opacity="0.5"/>
+
+  <!-- Hero heading -->
+  <rect x="40" y="80" width="260" height="24" rx="3" fill="#e0e0e0" opacity="0.15"/>
+  <rect x="40" y="115" width="180" height="14" rx="2" fill="#888" opacity="0.12"/>
+
+  <!-- Card elements -->
+  <rect x="40" y="160" width="220" height="120" rx="8" fill="#1a1a2e" stroke="#2a2a4a" stroke-width="1"/>
+  <rect x="55" y="175" width="100" height="10" rx="2" fill="#e0e0e0" opacity="0.2"/>
+  <rect x="55" y="195" width="190" height="8" rx="2" fill="#888" opacity="0.12"/>
+  <rect x="55" y="210" width="170" height="8" rx="2" fill="#888" opacity="0.12"/>
+  <rect x="55" y="235" width="50" height="20" rx="10" fill="#6366f1" opacity="0.15" stroke="#6366f1" stroke-width="0.5" stroke-opacity="0.3"/>
+  <rect x="115" y="235" width="60" height="20" rx="10" fill="#6366f1" opacity="0.15" stroke="#6366f1" stroke-width="0.5" stroke-opacity="0.3"/>
+
+  <rect x="290" y="160" width="220" height="120" rx="8" fill="#1a1a2e" stroke="#2a2a4a" stroke-width="1"/>
+  <rect x="305" y="175" width="110" height="10" rx="2" fill="#e0e0e0" opacity="0.2"/>
+  <rect x="305" y="195" width="190" height="8" rx="2" fill="#888" opacity="0.12"/>
+  <rect x="305" y="210" width="160" height="8" rx="2" fill="#888" opacity="0.12"/>
+  <rect x="305" y="235" width="55" height="20" rx="10" fill="#6366f1" opacity="0.15" stroke="#6366f1" stroke-width="0.5" stroke-opacity="0.3"/>
+
+  <!-- Annotation highlight on hero heading (red dashed border) -->
+  <rect x="36" y="76" width="268" height="32" rx="4" fill="none" stroke="#e10600" stroke-width="2" stroke-dasharray="6 3" opacity="0.7"/>
+
+  <!-- Annotation marker #1 on heading -->
+  <circle cx="36" cy="76" r="11" fill="#e10600"/>
+  <text x="36" y="80" text-anchor="middle" fill="white" font-size="12" font-weight="700" font-family="monospace">1</text>
+
+  <!-- Annotation highlight on first card -->
+  <rect x="36" y="156" width="228" height="128" rx="8" fill="none" stroke="#e10600" stroke-width="2" stroke-dasharray="6 3" opacity="0.7"/>
+
+  <!-- Annotation marker #2 on card -->
+  <circle cx="36" cy="156" r="11" fill="#e10600"/>
+  <text x="36" y="160" text-anchor="middle" fill="white" font-size="12" font-weight="700" font-family="monospace">2</text>
+
+  <!-- Annotation highlight on button area -->
+  <rect x="40" y="310" width="140" height="36" rx="6" fill="#6366f1" opacity="0.2" stroke="#6366f1" stroke-width="0.5"/>
+  <rect x="54" y="322" width="70" height="10" rx="2" fill="white" opacity="0.25"/>
+  <rect x="36" y="306" width="148" height="44" rx="8" fill="none" stroke="#e10600" stroke-width="2" stroke-dasharray="6 3" opacity="0.7"/>
+
+  <!-- Annotation marker #3 on button -->
+  <circle cx="36" cy="306" r="11" fill="#e10600"/>
+  <text x="36" y="310" text-anchor="middle" fill="white" font-size="12" font-weight="700" font-family="monospace">3</text>
+
+  <!-- Side panel -->
+  <rect x="560" y="0" width="240" height="400" fill="#0f0f23" stroke="#2a2a4a" stroke-width="1"/>
+
+  <!-- Panel header -->
+  <rect x="560" y="0" width="240" height="40" fill="#0f0f23"/>
+  <text x="580" y="25" fill="#e10600" font-size="14" font-weight="700" font-family="system-ui, sans-serif">Annotations</text>
+  <rect x="560" y="40" width="240" height="1" fill="#2a2a4a"/>
+
+  <!-- Header buttons -->
+  <rect x="700" y="10" width="40" height="22" rx="4" fill="#1a1a2e" stroke="#3a3a5a" stroke-width="1"/>
+  <text x="720" y="25" text-anchor="middle" fill="#e0e0e0" font-size="11" font-family="system-ui, sans-serif">Copy</text>
+  <rect x="748" y="10" width="40" height="22" rx="4" fill="#1a1a2e" stroke="#3a3a5a" stroke-width="1"/>
+  <text x="768" y="25" text-anchor="middle" fill="#e0e0e0" font-size="11" font-family="system-ui, sans-serif">Clear</text>
+
+  <!-- Annotation item 1 -->
+  <rect x="570" y="52" width="220" height="80" rx="6" fill="#1a1a2e" stroke="#2a2a4a" stroke-width="1"/>
+  <circle cx="584" cy="67" r="9" fill="#e10600"/>
+  <text x="584" y="71" text-anchor="middle" fill="white" font-size="10" font-weight="700" font-family="monospace">1</text>
+  <text x="600" y="70" fill="#888" font-size="10" font-family="monospace">h1.page-title</text>
+  <text x="580" y="87" fill="#666" font-size="10" font-family="system-ui, sans-serif">"Welcome Back"</text>
+  <!-- Note input -->
+  <rect x="578" y="96" width="204" height="26" rx="4" fill="#0f0f23" stroke="#3a3a5a" stroke-width="1"/>
+  <text x="588" y="113" fill="#e0e0e0" font-size="11" font-family="system-ui, sans-serif">update chart to use metric X</text>
+
+  <!-- Annotation item 2 -->
+  <rect x="570" y="142" width="220" height="80" rx="6" fill="#1a1a2e" stroke="#2a2a4a" stroke-width="1"/>
+  <circle cx="584" cy="157" r="9" fill="#e10600"/>
+  <text x="584" y="161" text-anchor="middle" fill="white" font-size="10" font-weight="700" font-family="monospace">2</text>
+  <text x="600" y="160" fill="#888" font-size="10" font-family="monospace">div.card:nth-child(1)</text>
+  <text x="580" y="177" fill="#666" font-size="10" font-family="system-ui, sans-serif">"Project One"</text>
+  <rect x="578" y="186" width="204" height="26" rx="4" fill="#0f0f23" stroke="#3a3a5a" stroke-width="1"/>
+  <text x="588" y="203" fill="#e0e0e0" font-size="11" font-family="system-ui, sans-serif">update description</text>
+
+  <!-- Annotation item 3 -->
+  <rect x="570" y="232" width="220" height="80" rx="6" fill="#1a1a2e" stroke="#2a2a4a" stroke-width="1"/>
+  <circle cx="584" cy="247" r="9" fill="#e10600"/>
+  <text x="584" y="251" text-anchor="middle" fill="white" font-size="10" font-weight="700" font-family="monospace">3</text>
+  <text x="600" y="250" fill="#888" font-size="10" font-family="monospace">button.primary</text>
+  <text x="580" y="267" fill="#666" font-size="10" font-family="system-ui, sans-serif">"Submit"</text>
+  <rect x="578" y="276" width="204" height="26" rx="4" fill="#0f0f23" stroke="#e10600" stroke-width="1"/>
+  <text x="588" y="293" fill="#e0e0e0" font-size="11" font-family="system-ui, sans-serif">add logging on click</text>
+  <!-- Blinking cursor -->
+  <rect x="700" y="281" width="1.5" height="14" fill="#e10600" opacity="0.8"/>
+
+  <!-- Toggle button (bottom right, dimmed since panel is open) -->
+  <circle cx="532" cy="374" r="20" fill="#333" opacity="0.9"/>
+  <line x1="522" y1="374" x2="542" y2="374" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="532" y1="364" x2="532" y2="384" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Hover highlight (red border on second card, simulating mouse) -->
+  <rect x="286" y="156" width="228" height="128" rx="8" fill="rgba(225,6,0,0.06)" stroke="#e10600" stroke-width="2" opacity="0.5"/>
+
+  <!-- Cursor icon near second card -->
+  <g transform="translate(400, 220)">
+    <path d="M0 0 L0 18 L5 13 L10 22 L13 20 L8 12 L14 12 Z" fill="white" stroke="#333" stroke-width="1"/>
+  </g>
+</svg>

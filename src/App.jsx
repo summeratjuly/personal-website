@@ -5,7 +5,6 @@ import About from './sections/About'
 import Experience from './sections/Experience'
 import Projects from './sections/Projects'
 import Skills from './sections/Skills'
-import Blog from './sections/Blog'
 import Contact from './sections/Contact'
 
 export default function App() {
@@ -17,7 +16,6 @@ export default function App() {
       <Experience />
       <Projects />
       <Skills />
-      <Blog />
       <Contact />
       <Footer />
     </>

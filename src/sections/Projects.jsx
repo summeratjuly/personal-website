@@ -3,12 +3,12 @@ import SectionHeading from '../components/SectionHeading'
 
 const projects = [
   {
-    title: 'Project One',
-    description: 'A full-stack application with real-time data processing and beautiful visualizations.',
-    tech: ['React', 'Python', 'FastAPI'],
+    title: 'Pit Wall Insight',
+    description: 'Real-time F1 race strategy analysis tool with tyre degradation charts, energy simulations, and telemetry visualizations powered by FastF1 data.',
+    tech: ['React', 'Python', 'FastAPI', 'FastF1'],
     image: null,
-    github: '#',
-    live: '#',
+    github: null,
+    live: 'https://pitwallinsight.com',
   },
   {
     title: 'Project Two',
@@ -27,12 +27,12 @@ const projects = [
     live: null,
   },
   {
-    title: 'Project Four',
-    description: 'Data visualization dashboard with interactive charts and filtering.',
-    tech: ['D3.js', 'React', 'PostgreSQL'],
-    image: null,
-    github: '#',
-    live: '#',
+    title: 'dev-annotate',
+    description: 'Click-to-annotate overlay for any Vite project. Select elements in the browser, describe what needs fixing, and export structured annotations for Claude Code, Codex, or any AI coding assistant.',
+    tech: ['JavaScript', 'Vite Plugin'],
+    image: '/projects/dev-annotate-preview.svg',
+    github: 'https://github.com/summeratjuly/dev-annotate',
+    live: null,
   },
 ]
 
@@ -68,8 +68,12 @@ export default function Projects() {
               transition={{ duration: 0.5, delay: i * 0.1 }}
               className="group relative rounded-xl bg-surface-light border border-white/5 overflow-hidden hover:border-primary/30 transition-all duration-300"
             >
-              <div className="h-48 bg-gradient-to-br from-primary/10 to-accent/10 flex items-center justify-center">
-                <span className="text-text-muted text-sm">Project Screenshot</span>
+              <div className="h-48 bg-gradient-to-br from-primary/10 to-accent/10 flex items-center justify-center overflow-hidden">
+                {project.image ? (
+                  <img src={project.image} alt={project.title} className="w-full h-full object-cover" />
+                ) : (
+                  <span className="text-text-muted text-sm">Project Screenshot</span>
+                )}
               </div>
 
               <div className="p-6">

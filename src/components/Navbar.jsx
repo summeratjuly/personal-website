@@ -6,7 +6,6 @@ const links = [
   { label: 'Experience', href: '#experience' },
   { label: 'Projects', href: '#projects' },
   { label: 'Skills', href: '#skills' },
-  { label: 'Blog', href: '#blog' },
   { label: 'Contact', href: '#contact' },
 ]
 
@@ -30,7 +29,8 @@ export default function Navbar() {
       }`}
     >
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-        <a href="#" className="text-xl font-bold text-primary">
+        <a href="#" className="text-xl font-bold text-primary flex items-center gap-2">
+          <img src="/favicon.svg" alt="Logo" className="w-6 h-6" />
           R.
         </a>
 
