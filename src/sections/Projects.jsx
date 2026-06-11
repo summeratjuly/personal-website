@@ -6,7 +6,7 @@ const projects = [
     title: 'Pit Wall Insight',
     description: 'Real-time F1 race strategy analysis tool with tyre degradation charts, energy simulations, and telemetry visualizations powered by FastF1 data.',
     tech: ['React', 'Python', 'FastAPI', 'FastF1'],
-    image: null,
+    image: '/projects/pitwall-insight-preview.png',
     github: null,
     live: 'https://pitwallinsight.com',
   },

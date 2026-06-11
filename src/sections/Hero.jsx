@@ -34,7 +34,7 @@ export default function Hero() {
           transition={{ delay: 0.6 }}
           className="text-xl md:text-2xl text-text-muted max-w-2xl mx-auto mb-10"
         >
-          Data & Research Professional
+          Data Professionals
         </motion.p>
 
         <motion.div
