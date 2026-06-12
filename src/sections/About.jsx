@@ -15,29 +15,18 @@ export default function About() {
             transition={{ duration: 0.6 }}
           >
             <p className="text-lg text-text-muted leading-relaxed mb-6">
-              I'm a passionate developer who loves building beautiful, interactive
-              experiences on the web. With a keen eye for design and a love for
-              clean code, I bring ideas to life through technology.
+              I'm a data engineering technical lead and manager with 8+ years
+              building Meta-scale data foundations across event logging,
+              warehouse pipelines, canonical product datasets, experimentation
+              attribution, ML training data, and fault-tolerant ETL/ELT systems.
             </p>
-            <p className="text-lg text-text-muted leading-relaxed mb-8">
-              When I'm not coding, you can find me exploring new technologies,
-              contributing to open source, or working on creative side projects
-              that push the boundaries of what's possible.
+            <p className="text-lg text-text-muted leading-relaxed">
+              I specialize in turning complex product environments into reliable,
+              decision-grade metrics through SQL, Python, Spark, Airflow, data
+              quality systems, and analytics tooling. My recent work also explores
+              AI-assisted analysis, context management for internal agents, and
+              F1 analytics projects built from public data and video signals.
             </p>
-
-            <div className="grid grid-cols-2 gap-6">
-              {[
-                { label: 'Projects', value: '10+' },
-                { label: 'Years Coding', value: '5+' },
-                { label: 'Technologies', value: '20+' },
-                { label: 'Coffee Cups', value: 'Infinite' },
-              ].map((stat) => (
-                <div key={stat.label} className="p-4 rounded-xl bg-surface-light border border-white/5">
-                  <div className="text-2xl font-bold text-primary">{stat.value}</div>
-                  <div className="text-sm text-text-muted">{stat.label}</div>
-                </div>
-              ))}
-            </div>
           </motion.div>
         </div>
 
